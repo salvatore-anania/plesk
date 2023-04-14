@@ -1,0 +1,131 @@
+@media (width> 700px) {
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: inherit;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+main{
+    display:flex;
+}
+
+h2{
+    color:brown;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin:2%;
+}
+
+section{
+    margin:2%;
+}
+
+section hr{
+    margin-top: -2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+#photo{
+    flex:1;
+    text-align:right;
+    
+}
+
+#main_title{
+    flex:3;
+    text-align:center;
+}
+
+#contact{
+    flex:2;
+}
+
+.experiences p{
+    display: flex;
+}
+
+.date{
+    flex: 1;
+}
+
+.description{
+    flex: 3;
+}
+
+#bandeau{
+    background:lightgrey;
+    font-size:20px;
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+}
+
+#bandeau a{
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    margin:10%;
+}
+
+#right{
+    flex:2;
+    margin:2%;
+}
+#left{
+    flex:1;
+    margin:2%;
+}
+
+.description_title{
+    font-weight: bold;
+}
+  
+@keyframes slidein {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 0%;
+    }
+  }
+  
+}
+
+@media (width< 700px) {
+    * :not(title){
+        display:block;
+
+    }
+
+    #bandeau{
+        background:lightgrey;
+        font-size:20px;
+        display:flex;
+        text-align:center;
+        justify-content: center;
+        align-items: center;
+        height: 2em;
+    }
+    
+    #bandeau a{
+        display:flex;
+        text-align:center;
+        justify-content: center;
+        align-items: center;
+        margin:10%;
+    }
+    
+  }
