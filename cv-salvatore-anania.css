@@ -8,6 +8,10 @@ header{
     animation-name: slidein;
 }
 
+a{
+    text-decoration: none;
+}
+
 main{
     display:flex;
 }
@@ -61,7 +65,7 @@ section hr{
     flex: 3;
 }
 
-#bandeau{
+.bandeau{
     background:lightgrey;
     font-size:20px;
     display:flex;
@@ -71,14 +75,17 @@ section hr{
     height: 2em;
 }
 
-#bandeau a{
+.bandeau a{
     display:flex;
     text-align:center;
     justify-content: center;
     align-items: center;
     margin:10%;
 }
-
+.bandeau a:hover{
+    animation-duration: 0.1s;
+    animation-name: vibe;
+}
 #right{
     flex:2;
     margin:2%;
@@ -101,6 +108,16 @@ section hr{
       margin-top: 0%;
     }
   }
+
+@keyframes vibe {
+    from {
+      translate: 5px;
+    }
+  
+    to {
+        translate: -5px;
+    }
+  }
   
 }
 
@@ -110,7 +127,7 @@ section hr{
 
     }
 
-    #bandeau{
+    .bandeau{
         background:lightgrey;
         font-size:20px;
         display:flex;
@@ -120,7 +137,7 @@ section hr{
         height: 2em;
     }
     
-    #bandeau a{
+    .bandeau a{
         display:flex;
         text-align:center;
         justify-content: center;
