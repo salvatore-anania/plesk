@@ -68,7 +68,7 @@ h2{
     height: 20%;
 }
 
-#map:not(iframe){
+#map{
     padding-inline: 15%;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ iframe{
     margin-bottom: 2%;
 }
 
-#logo{
+#logo_map{
     display: flex;
 }
 

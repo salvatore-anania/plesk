@@ -149,3 +149,10 @@ h2{
     background-color: #ffe85f;
     padding: 10%;
 }
+
+@media (width< 700px) {
+    * :not(title){
+        display:block !important;
+    }
+    
+  }

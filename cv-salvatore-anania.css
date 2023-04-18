@@ -20,11 +20,11 @@ h2{
     color:brown;
 }
 
-ul{
+#left ul{
     list-style: none;
 }
 
-li{
+#left li{
     margin:2%;
 }
 
@@ -53,8 +53,9 @@ section hr{
     flex:2;
 }
 
-.experiences p{
+.experiences article{
     display: flex;
+    margin: 2%;
 }
 
 .date{
